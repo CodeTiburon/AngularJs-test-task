@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app" >
+  <head>
+    <meta charset="utf-8">
+    <title>Angular test tasks</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="favicon.png"/>
+  </head>
+  <body class="ci" ng-class="bodyClasses" layout="row">
+    <ui-view role="main" class="layout-row flex" ng-cloak></ui-view>
+    <div ng-if="false">
+      <p>Loading the application, please hold on...</p>
+    </div>
+  </body>
+</html>
